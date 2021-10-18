@@ -74,19 +74,6 @@ public class WordGenerator : MonoBehaviour
         }
     }
 
-    public string ConvertIndexWordToString(List<int> word) {
-        string w = "";
-        for (int i = 0; i < word.Count; i++) {
-            if (i == 0) {
-                char[] sound = WordList.words[word[i]].sound.ToCharArray();
-                w += (sound.Length == 2) ? sound[0].ToString().ToUpper() + sound[1].ToString() : sound[0].ToString().ToUpper();
-
-            }  else
-                w += WordList.words[word[i]].sound;
-        }
-        return w;
-    }
-
     public WordDictionary GetWDfromLetter(string letter) {
         for (int i = 0; i < WordList.words.Length; i++) {
             if (WordList.words[i].sound == letter)
