@@ -40,7 +40,7 @@ public static class WordList {
 
     //adapted from www.yourlocalunitedway.org/sites/main/files/3-common_syllables_packet.pdf
     public static SyllableDictionary[] syllables = new SyllableDictionary[] {
-        new SyllableDictionary("a", new List<string> {"a", "ag", "air", "am", "act", "age", "als", "an", "as", "at", "ate", "au", "ap"}),
+        new SyllableDictionary("a", new List<string> {"a", "ag", "air", "am", "act", "age", "als", "an", "as", "at", "ate", "au", "ap", "adi"}),
         new SyllableDictionary("b", new List<string> {"ba", "be", "bi", "bat", "bet", "bles", "bor", "but", "by"}),
         new SyllableDictionary("c", new List<string> {"cap", "cat", "cen", "can", "car", "cate", "cent", "char", "ci", "cial", "cle", "come", "cu", "cir", "co", "cor", "cul", "cus", "cy"}),
         new SyllableDictionary("d", new List<string> {"da", "day", "der", "ders", "dy", "dan", "den", "dle"}),
@@ -50,15 +50,15 @@ public static class WordList {
         new SyllableDictionary("h", new List<string> {"har", "head", "heav", "high", "ho", "hunt"}),
         new SyllableDictionary("i", new List<string> {"ies", "in", "ic", "il", "ings", "ion", "is", "ish", "its", "it"}),
         new SyllableDictionary("j", new List<string> {"jo", "jug", "jag", "jil", "jis", "jaw", "jet", "jig", "jog", "jay", "jab", "jar", "jot"}),
-        new SyllableDictionary("k", new List<string> {"ket", "kab", "kae", "kaf", "kas", "kat", "kay", "kea", "kef", "keg", "ken", "kep", "kex", "key", "khi", "kid", "kif", "kin", "kip", "kir", "kis", "kit", "koa", "kob", "koi", "kop", "kor", "kos", "kue", "kye"}),
-        new SyllableDictionary("l", new List<string> {"lands", "land", "lat", "lead", "lec", "lect", "less", "li", "lin", "lent", "let", "light", "lo", "long", "low", "lu", "ly"}),
+        new SyllableDictionary("k", new List<string> {"ket", "kab", "kae", "kaf", "kas", "kat", "kay", "kea", "kef", "keg", "ken", "kep", "kex", "key", "khi", "kid", "kif", "kin", "kip", "kir", "kis", "kit", "koa", "kob", "koi", "kop", "kor", "kos", "kue", "kye", "ka"}),
+        new SyllableDictionary("l", new List<string> {"lands", "land", "lat", "lead", "lec", "lect", "less", "li", "lin", "lent", "let", "light", "lo", "long", "low", "lu", "ly", "les"}),
         new SyllableDictionary("m", new List<string> {"mag", "mal", "mar", "mair", "main", "man", "mat", "me", "meas", "men", "man", "mi", "min", "mo", "ments", "mil", "mis", "mul", "my"}),
         new SyllableDictionary("n", new List<string> {"nal", "nel", "ness", "new", "near", "ner", "net", "ni", "no", "nore", "nor", "nu"}),
         new SyllableDictionary("o", new List<string> {"oc", "on", "op", "ob", "of", "one", "or", "ous", "out"}),
         new SyllableDictionary("p", new List<string> {"prac", "pen", "play", "ply", "part", "pi", "ples", "point", "port", "pos", "pre", "press", "pres", "pop", "pip"}),
         new SyllableDictionary("q", new List<string> {"qat", "qit", "qu", "qa", "qe", "qua"}),
         new SyllableDictionary("r", new List<string> {"ral", "rec", "ra", "read", "rect", "rep", "ried", "ro", "row", "round"}),
-        new SyllableDictionary("s", new List<string> {"sand", "sent", "sa", "sat", "se", "self", "ser", "sat", "sac", "sar", "suc", "set", "side", "sion", "sis", "ship", "sim", "sions", "so", "some", "son", "sons", "stand", "sub", "sun", "south", "su", "sug", "sup", "sur", "sus"}),
+        new SyllableDictionary("s", new List<string> {"sand", "sent", "sa", "sat", "se", "self", "ser", "sat", "sac", "sar", "suc", "set", "side", "sion", "sis", "ship", "sim", "sions", "so", "some", "son", "sons", "stand", "sub", "sun", "south", "su", "sug", "sup", "sur", "sus", "shi", "swa"}),
         new SyllableDictionary("t", new List<string> {"ta", "tal", "ted", "tem", "tend", "te", "tel", "ten", "the", "tha", "tho", "thu", "thi", "ti", "tic", "ties", "ting", "to", "ton", "tin", "tive", "tom", "tor", "tors", "tra", "tract", "tri", "try", "tures", "tray", "tro", "tu"}),
         new SyllableDictionary("u", new List<string> {"u", "uer", "um", "up", "us"}),
         new SyllableDictionary("v", new List<string> {"va", "var", "vi", "val", "vel", "vid", "vis"}),
